@@ -8,23 +8,26 @@
     <title>Sketch etch get fucked</title>
 </head>
 <body>
-    <h1> Sketch my dick</h1>
+    <h1> Sketch my dick 🍆🍆🍆🍆</h1>
     <div class="all">
 
     </div>
     <div>
-        <button onclick="changeColor('red')">Red</button>
-        <button onclick="changeColor('blue')">Blue</button>
-        <button onclick="changeColor('black')">Black</button>
-        <button onclick="changeColor('white')">Eraser</button>
-        <button onclick="changeColor('rainbow')">Rainbow</button>
-        <button onclick="changeColor('scaling')">scaling black</button>
+        <button class="red" onclick="changeColor('red')"></button>
+        <button class="blue" onclick="changeColor('blue')"></button>
+        <button class="black" onclick="changeColor('black')"></button>
+        <button onclick="changeColor('black')">Eraser</button>
+        <button onclick="changeColor('random')">Rainbow</button>
     </div>
     <div>
         <input type="text"
-        onchange="">
-        <button onlick="makeGrid(input)">Create grid</button>
+        onchange="makeGrid(this.value)">
+        <button>Create grid</button>
+        <button onclick="makeGrid(sizes)">Reset</button>
     </div>
+    <p class="warning">
+
+    </p>
 </body>
 <script src="script.js"></script>
 </html>
